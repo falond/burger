@@ -1,0 +1,23 @@
+* {
+	text-align: center;
+}
+body{
+	background-color: #f1dec6;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #333;
+}
+
+.jumbotron {
+	background-image: url("/assets/img/burgerss.jpg");
+	color: white;
+}
+
+.list-group-item{
+	background-color: #b6d0ac;
+}
+
+#eatB{
+	background-color: #f1dec6;
+}
