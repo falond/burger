@@ -2,7 +2,7 @@
 	text-align: center;
 }
 body{
-	background-color: #f1dec6;
+	background-color: black;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 14px;
 	line-height: 1.42857143;
@@ -10,14 +10,15 @@ body{
 }
 
 .jumbotron {
-	background-image: url("/assets/img/burgerss.jpg");
-	color: white;
+	/*background-image: url("/assets/img/burgerss.jpg");*/
+	color: black;
 }
 
 .list-group-item{
 	background-color: #b6d0ac;
 }
 
-#eatB{
-	background-color: #f1dec6;
+.input-lg{
+	width: 500px;
+    margin-left: 220px;
 }

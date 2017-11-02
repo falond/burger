@@ -1,4 +1,4 @@
-<div class="container"> 
+ <div class="container"> 
   <div class="jumbotron"> 
     <h1> <strong>Eat-Da-Burger!</strong> </h1>
   </div>
@@ -14,9 +14,9 @@
             <div class="input-group">
               <p class="lead"> {{this.burger_name}} </p>
               <span class="input-group-btn">
-                <form action="burgers/update/{{this.id}}?_method=PUT" method="POST">
+                <form method="POST" action="burgers/update/{{this.id}}?_method=PUT">
                   <input type="hidden" name="devoured" value="true">
-                  <button class="btn btn-default btn-lg" id="eatB" type="submit"> EAT IT! </button>
+                  <button class="btn btn-default btn-lg" type="submit"> EAT IT! </button>
                 </form>
               </span>
             </div>
@@ -55,7 +55,7 @@
         <textarea class="form-control input-lg" type="text" name="burger_name" rows="3"> </textarea>
       </div>
 
-      <button class="btn btn-default btn-lg" id= "addB" type="submit">Add Burger!</button>
+      <button class="btn btn-default btn-lg" type="submit">Add Burger!</button>
     </form>
   </div>
 </div>

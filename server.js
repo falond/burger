@@ -12,6 +12,8 @@ var app = express();
 app.use(express.static("public"));
 
 app.use(bodyParser.urlencoded({ extended: false }));
+app.use(methodOverride("_method"));
+
 
 // Set Handlebars.
 var exphbs = require("express-handlebars");
