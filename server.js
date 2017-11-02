@@ -12,6 +12,8 @@ var app = express();
 app.use(express.static("public"));
 
 app.use(bodyParser.urlencoded({ extended: false }));
+
+// Override with POST having ?_method=DELETE
 app.use(methodOverride("_method"));
 
 

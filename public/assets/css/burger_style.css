@@ -4,21 +4,25 @@
 body{
 	background-color: black;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 14px;
+	font-size: 18px;
 	line-height: 1.42857143;
 	color: #333;
 }
 
 .jumbotron {
-	/*background-image: url("/assets/img/burgerss.jpg");*/
-	color: black;
+	color: #21d05a;
+	background-color: black;
 }
 
 .list-group-item{
 	background-color: #b6d0ac;
 }
-
-.input-lg{
-	width: 500px;
-    margin-left: 220px;
+img{
+	height: 280px;
+    width: 450px;
 }
+
+.detials{
+	color: #21d05a;
+}
+
